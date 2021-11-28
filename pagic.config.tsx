@@ -41,20 +41,6 @@ export default {
     '/': [
       'introduction/README.md',
       {
-        link: 'test_pages/README.md',
-        children: ['test_pages/markdown_test.md', 'test_pages/front_matter.md', 'test_pages/react_hooks_test.tsx','test_pages/markdown_test.md'],
-      },
-      {
-        text: 'Folder',
-        children: [
-          'folder/foo.md',
-          {
-            text: 'Custom sidebar text',
-            link: 'folder/bar.md'
-          }
-        ]
-      },
-      {
         text: '功能说明',
         children: [
           'test_pages/databank.md',
@@ -66,8 +52,15 @@ export default {
           //  link: 'folder/bar.md'
           //},
         ]
+      },
+      {
+        text: '安装教程',
+        link: 'test_pages/README.md'
+      },
+      {
+        text: '未来规划',
+        link: 'test_pages/README.md'
       }
-
     ],
   },
   tools: {
@@ -76,7 +69,7 @@ export default {
   },
 
   footer: (
-    <footer>
+    <footer style="text-align: center;">
       Copyright © 2021 CHENGFU
     </footer>
   ),
