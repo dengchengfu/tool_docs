@@ -1,4 +1,4 @@
-import { React } from 'https://deno.land/x/pagic/mod.ts';
+//import { React } from 'https://deno.land/x/pagic@v1.5.1/mod.ts';
 
 export default {
   srcDir: '.',
@@ -63,10 +63,7 @@ export default {
 
   footer: (
     <footer>
-      Powered by&nbsp;
-      <a href="https://github.com/xcatliu/pagic" target="_blank">
-        Pagic testing
-      </a>
+      Copyright © 2021 CHENGFU
     </footer>
   ),
 
