@@ -6,7 +6,7 @@
 
 产品理念：让天下没有难取的数。拒绝接受人为制造的阻碍。
 
-![Image of afutool](/assets/logo.png)
+![Image of afutool](https://github.com/dengchengfu/tool_docs/blob/main/assets/logo.png)
 
 
 ## 简介
