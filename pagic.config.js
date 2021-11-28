@@ -1,4 +1,3 @@
-// import { React } from 'https://deno.land/x/pagic/mod.ts';
 export default {
     srcDir: '.',
     exclude: ['LICENSE'],
@@ -8,14 +7,18 @@ export default {
     title: '阿甫工具-说明手册',
     description: 'Use this template to create a Pagic site with the docs theme',
     // To use jsx syntax, please rename this file to pagic.config.tsx
-    // head: <>
+    //head: <>
     //   <link rel="icon" type="image/png" href="/favicon.png" />
     //   <script src="/assets/custom.js" />
     // </>,
+    head: React.createElement("link", { rel: "icon", type: "image/png", href: "/favicon.png" }),
     nav: [
         {
-            text: '赞助',
+            text: '赞助作者',
             link: '/tool_docs/introduction/index.html',
+            target: '_blank',
+            popover: (React.createElement(React.Fragment, null,
+                React.createElement("img", { src: "/assets/wechatpay.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
         },
         {
             text: '加入微信群',
@@ -51,5 +54,8 @@ export default {
         editOnGitHub: true,
         backToTop: true,
     },
+    footer: (React.createElement("footer", null,
+        "Powered by\u00A0",
+        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing"))),
     port: 8000,
 };

@@ -32,13 +32,17 @@ export default {
             ],
             footer: React.createElement("footer", null,
                 "Powered by\u00A0",
-                React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
+                React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")),
             github: 'https://github.com/dengchengfu/tool_docs',
+            head: React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }),
             include: undefined,
             nav: [
                 {
                     link: '/tool_docs/introduction/index.html',
-                    text: '赞助'
+                    popover: React.createElement(React.Fragment, null,
+                        React.createElement("img", { src: "/assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
+                    target: '_blank',
+                    text: '赞助作者'
                 },
                 {
                     link: 'https://pagic.org/',
@@ -98,15 +102,15 @@ export default {
             watch: false
         }, content: null, footer: React.createElement("footer", null,
             "Powered by\u00A0",
-            React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
-    'head': null,
+            React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")), head: React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }), layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
+    'head': React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }),
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", null,
-        "Powered by\u00A0",
-        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
+        "Powered by",
+        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")),
     'sidebar': [
         {
             "text": "Introduction",

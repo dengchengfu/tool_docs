@@ -17,14 +17,15 @@ export default {
             __html: '<h1>Test pages</h1>\n<p>The test pages.</p>'
         } }),
     'head': React.createElement(React.Fragment, null,
+        React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }),
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", null,
-        "Powered by\u00A0",
-        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
+        "Powered by",
+        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")),
     'contentTitle': React.createElement("h1", { key: "0" }, "Test pages"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>The test pages.</p>'
