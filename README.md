@@ -6,7 +6,7 @@
 
 产品理念：让天下没有难取的数。拒绝接受人为制造的阻碍。
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of afutool](/assets/logo.png)
 
 
 ## 简介
