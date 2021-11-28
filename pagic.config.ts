@@ -16,11 +16,11 @@ export default {
   // </>,
   nav: [
     {
-      text: 'Docs',
+      text: '赞助',
       link: '/tool_docs/introduction/index.html',
     },
     {
-      text: 'Pagic',
+      text: '加入微信群',
       link: 'https://pagic.org/',
     },
     {
@@ -29,7 +29,7 @@ export default {
       align: 'right',
     },
   ],
-  github: 'https://github.com/xcatliu/tool_docs',
+  github: 'https://github.com/dengchengfu/tool_docs',
   sidebar: {
     '/': [
       'introduction/README.md',
