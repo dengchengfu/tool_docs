@@ -55,14 +55,15 @@ export default {
       },
       {
         text: '安装教程',
-        link: 'test_pages/README.md'
+        link: 'test_pages/installpro.md'
       },
       {
         text: '未来规划',
-        link: 'test_pages/README.md'
-      }
+        link: 'test_pages/future.md'
+      },
     ],
   },
+
   tools: {
     editOnGitHub: true,
     backToTop: true,
@@ -70,7 +71,7 @@ export default {
 
   footer: (
     <footer style={{textAlign: 'center'}}>
-      Copyright © 2021 CHENGFU
+    © CHENGFU
     </footer>
   ),
 
