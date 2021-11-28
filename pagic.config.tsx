@@ -30,7 +30,7 @@ export default {
       link: '/tool_docs/introduction/index.html',
       popover: (
         <>
-          <img src="../assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
+          <img src="../assets/wegroup.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
         </>
       ),
     },
