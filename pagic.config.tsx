@@ -16,7 +16,7 @@ export default {
   //head: <link rel="icon" type="image/png" href="/favicon.png" />,
   nav: [
     {
-      text: '赞助',
+      text: '打赏',
       link: '/tool_docs/introduction/index.html',
       target: '_blank',
       popover: (
@@ -26,7 +26,7 @@ export default {
       ),
     },
     {
-      text: '微信群',
+      text: '提需求',
       link: '/tool_docs/introduction/index.html',
       popover: (
         <>
