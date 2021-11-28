@@ -1,11 +1,11 @@
 export default {
     srcDir: '.',
     exclude: ['LICENSE'],
-    //root: '/tool_docs/',
     theme: 'docs',
     plugins: ['sidebar', 'prev_next'],
     title: '阿甫工具-说明手册',
     description: 'Use this template to create a Pagic site with the docs theme',
+    github: 'https://github.com/dengchengfu/tool_docs',
     // To use jsx syntax, please rename this file to pagic.config.tsx
     //head: <>
     //   <link rel="icon" type="image/png" href="/favicon.png" />
@@ -15,24 +15,22 @@ export default {
     nav: [
         {
             text: '打赏',
-            link: '/tool_docs/introduction/index.html',
+            link: 'introduction/index.html',
             target: '_blank',
             popover: (React.createElement(React.Fragment, null,
                 React.createElement("img", { src: "../assets/wechatpay.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
         },
         {
             text: '提需求',
-            link: '/tool_docs/introduction/index.html',
             popover: (React.createElement(React.Fragment, null,
                 React.createElement("img", { src: "../assets/wegroup.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
         },
         {
             text: '关于',
-            link: '/tool_docs/about/index.html',
+            link: '/about/index.html',
             align: 'right',
         },
     ],
-    github: 'https://github.com/dengchengfu/tool_docs',
     sidebar: {
         '/': [
             'introduction/introdetail.md',

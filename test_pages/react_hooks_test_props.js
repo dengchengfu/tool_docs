@@ -29,21 +29,20 @@ export default {
             include: undefined,
             nav: [
                 {
-                    link: '/tool_docs/introduction/index.html',
+                    link: 'introduction/index.html',
                     popover: React.createElement(React.Fragment, null,
                         React.createElement("img", { src: "../assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
                     target: '_blank',
                     text: '打赏'
                 },
                 {
-                    link: '/tool_docs/introduction/index.html',
                     popover: React.createElement(React.Fragment, null,
                         React.createElement("img", { src: "../assets/wegroup.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
                     text: '提需求'
                 },
                 {
                     align: 'right',
-                    link: '/tool_docs/about/index.html',
+                    link: '/about/index.html',
                     text: '关于'
                 }
             ],
