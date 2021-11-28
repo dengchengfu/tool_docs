@@ -62,7 +62,7 @@ export default {
             serve: false,
             sidebar: {
                 '/': [
-                    'introduction/README.md',
+                    'introduction/introdetail.md',
                     {
                         children: [
                             'test_pages/databank.md',
@@ -86,8 +86,7 @@ export default {
             theme: 'docs',
             title: '阿甫工具-说明手册',
             tools: {
-                backToTop: true,
-                editOnGitHub: true
+                backToTop: true
             },
             watch: false
         }, content: null, footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
@@ -102,8 +101,8 @@ export default {
     'sidebar': [
         {
             "text": "介绍",
-            "link": "introduction/index.html",
-            "pagePath": "introduction/README.md"
+            "link": "introduction/introdetail.html",
+            "pagePath": "introduction/introdetail.md"
         },
         {
             "text": "功能说明",

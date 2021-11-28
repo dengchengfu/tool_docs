@@ -2,7 +2,7 @@ import projectConfig from '/tool_docs/pagic.config.js';
 export default {
     'prev': {
         "text": "介绍",
-        "link": "introduction/index.html"
+        "link": "introduction/introdetail.html"
     },
     'next': {
         "text": "策略中心",
@@ -65,8 +65,8 @@ export default {
     'sidebar': [
         {
             "text": "介绍",
-            "link": "introduction/index.html",
-            "pagePath": "introduction/README.md"
+            "link": "introduction/introdetail.html",
+            "pagePath": "introduction/introdetail.md"
         },
         {
             "text": "功能说明",
