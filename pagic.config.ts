@@ -7,7 +7,7 @@ export default {
 
   theme: 'docs',
   plugins: ['sidebar', 'prev_next'],
-  title: 'Pagic template docs',
+  title: '阿甫工具-说明手册',
   description: 'Use this template to create a Pagic site with the docs theme',
   // To use jsx syntax, please rename this file to pagic.config.tsx
   // head: <>
