@@ -27,4 +27,4 @@
 `阿甫工具` 目前涵盖终端：
 
 - Chrome浏览器扩展：
-    - [阿甫工具](https://d97gi4px3j.feishu.cn/sheets/shtcnprcQkGea8LdPwZnCdP5rNc?sheet=eqT6sU&table=tbl4Qq6fbWDifSih&view=vewAQskBlK) 
+    - [阿甫工具](https://d97gi4px3j.feishu.cn/sheets/shtcnprcQkGea8LdPwZnCdP5rNc?sheet=eqT6sU&table=tbl4Qq6fbWDifSih&view=vewAQskBlK)
