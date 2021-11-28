@@ -90,7 +90,7 @@ export default {
             },
             srcDir: '.',
             theme: 'docs',
-            title: 'Pagic template docs',
+            title: '阿甫工具-说明手册',
             tools: {
                 backToTop: true,
                 editOnGitHub: true
