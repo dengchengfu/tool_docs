@@ -24,7 +24,7 @@ export default {
                 'LICENSE',
                 'dist'
             ],
-            footer: React.createElement("footer", { style: { textAlign: 'center' } }, "Copyright \u00A9 2021 CHENGFU"),
+            footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 CHENGFU"),
             github: 'https://github.com/dengchengfu/tool_docs',
             include: undefined,
             nav: [
@@ -73,11 +73,11 @@ export default {
                         text: '功能说明'
                     },
                     {
-                        link: 'test_pages/README.md',
+                        link: 'test_pages/installpro.md',
                         text: '安装教程'
                     },
                     {
-                        link: 'test_pages/README.md',
+                        link: 'test_pages/future.md',
                         text: '未来规划'
                     }
                 ]
@@ -90,7 +90,7 @@ export default {
                 editOnGitHub: true
             },
             watch: false
-        }, content: null, footer: React.createElement("footer", { style: { textAlign: 'center' } }, "Copyright \u00A9 2021 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
+        }, content: null, footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
@@ -98,7 +98,7 @@ export default {
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "Copyright \u00A9 2021 CHENGFU"),
+        } }, "\u00A9 CHENGFU"),
     'sidebar': [
         {
             "text": "介绍",
@@ -132,13 +132,13 @@ export default {
         },
         {
             "text": "安装教程",
-            "link": "test_pages/index.html",
-            "pagePath": "test_pages/README.md"
+            "link": "test_pages/installpro.html",
+            "pagePath": "test_pages/installpro.md"
         },
         {
             "text": "未来规划",
-            "link": "test_pages/index.html",
-            "pagePath": "test_pages/README.md"
+            "link": "test_pages/future.html",
+            "pagePath": "test_pages/future.md"
         }
     ]
 };

@@ -49,18 +49,18 @@ export default {
             },
             {
                 text: '安装教程',
-                link: 'test_pages/README.md'
+                link: 'test_pages/installpro.md'
             },
             {
                 text: '未来规划',
-                link: 'test_pages/README.md'
-            }
+                link: 'test_pages/future.md'
+            },
         ],
     },
     tools: {
         editOnGitHub: true,
         backToTop: true,
     },
-    footer: (React.createElement("footer", { style: { textAlign: 'center' } }, "Copyright \u00A9 2021 CHENGFU")),
+    footer: (React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 CHENGFU")),
     port: 8000,
 };

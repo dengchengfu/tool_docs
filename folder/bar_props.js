@@ -18,7 +18,7 @@ export default {
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "Copyright \u00A9 2021 CHENGFU"),
+        } }, "\u00A9 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "Bar"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>The bar page.</p>'
@@ -65,13 +65,13 @@ export default {
         },
         {
             "text": "安装教程",
-            "link": "test_pages/index.html",
-            "pagePath": "test_pages/README.md"
+            "link": "test_pages/installpro.html",
+            "pagePath": "test_pages/installpro.md"
         },
         {
             "text": "未来规划",
-            "link": "test_pages/index.html",
-            "pagePath": "test_pages/README.md"
+            "link": "test_pages/future.html",
+            "pagePath": "test_pages/future.md"
         }
     ]
 };
