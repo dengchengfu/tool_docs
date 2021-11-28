@@ -1,4 +1,4 @@
-//import { React } from 'https://deno.land/x/pagic@v1.5.1/mod.ts';
+import { React } from 'https://deno.land/x/pagic@v1.5.1/mod.ts';
 
 export default {
   srcDir: '.',
@@ -14,7 +14,7 @@ export default {
   //   <link rel="icon" type="image/png" href="/favicon.png" />
   //   <script src="/assets/custom.js" />
   // </>,
-  head: <link rel="icon" type="image/png" href="/favicon.png" />,
+  //head: <link rel="icon" type="image/png" href="/favicon.png" />,
   nav: [
     {
       text: '赞助作者',
