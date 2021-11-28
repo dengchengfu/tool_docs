@@ -8,7 +8,7 @@ export default {
     'outputPath': "about/index.html",
     'title': "About",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>About</h1>\n<p>The about page.</p>'
+            __html: '<h1>About</h1>\n<ul>\n<li>2021-11-24: 新增策略中心-市场模块数据导出。</li>\n<li>2021-11-22: 终于想起来要写个产品更新文档</li>\n</ul>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
@@ -21,7 +21,7 @@ export default {
         } }, "\u00A9 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "About"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>The about page.</p>'
+            __html: '<ul>\n<li>2021-11-24: 新增策略中心-市场模块数据导出。</li>\n<li>2021-11-22: 终于想起来要写个产品更新文档</li>\n</ul>'
         } }),
     'toc': null,
     'author': "CHENGFU DENG",
@@ -29,8 +29,8 @@ export default {
         "CHENGFU DENG"
     ],
     'date': "2021-11-28T04:11:10.000Z",
-    'updated': null,
-    'excerpt': "The about page.",
+    'updated': "2021-11-28T09:03:44.000Z",
+    'excerpt': " - 2021-11-24: 新增策略中心-市场模块数据导出。 - 2021-11-22: 终于想起来要写个产品更新文档",
     'cover': undefined,
     'sidebar': [
         {
