@@ -1,7 +1,13 @@
 import projectConfig from '/tool_docs/pagic.config.js';
 export default {
-    'prev': undefined,
-    'next': undefined,
+    'prev': {
+        "text": "数据银行",
+        "link": "test_pages/databank.html"
+    },
+    'next': {
+        "text": "达摩盘",
+        "link": "test_pages/dmp.html"
+    },
     config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/strategycenter.md",
     'layoutPath': "_layout.tsx",
@@ -99,6 +105,31 @@ export default {
                     "text": "Custom sidebar text",
                     "link": "folder/bar.html",
                     "pagePath": "folder/bar.md"
+                }
+            ]
+        },
+        {
+            "text": "功能说明",
+            "children": [
+                {
+                    "text": "数据银行",
+                    "link": "test_pages/databank.html",
+                    "pagePath": "test_pages/databank.md"
+                },
+                {
+                    "text": "策略中心",
+                    "link": "test_pages/strategycenter.html",
+                    "pagePath": "test_pages/strategycenter.md"
+                },
+                {
+                    "text": "达摩盘",
+                    "link": "test_pages/dmp.html",
+                    "pagePath": "test_pages/dmp.md"
+                },
+                {
+                    "text": "巨量云图",
+                    "link": "test_pages/yuntu.html",
+                    "pagePath": "test_pages/yuntu.md"
                 }
             ]
         }

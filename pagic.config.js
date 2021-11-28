@@ -47,6 +47,19 @@ export default {
                         link: 'folder/bar.md'
                     }
                 ]
+            },
+            {
+                text: '功能说明',
+                children: [
+                    'test_pages/databank.md',
+                    'test_pages/strategycenter.md',
+                    'test_pages/dmp.md',
+                    'test_pages/yuntu.md'
+                    //{
+                    // text: 'Custom sidebar text',
+                    //  link: 'folder/bar.md'
+                    //},
+                ]
             }
         ],
     },
