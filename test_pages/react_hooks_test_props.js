@@ -1,4 +1,4 @@
-import projectConfig from '/pagic_template_docs/pagic.config.js';
+import projectConfig from '/tool_docs/pagic.config.js';
 import ReactHooksTest from './react_hooks_test_content.js';
 export default {
     'prev': {
@@ -33,11 +33,11 @@ export default {
             footer: React.createElement("footer", null,
                 "Powered by\u00A0",
                 React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
-            github: 'https://github.com/xcatliu/pagic_template_docs',
+            github: 'https://github.com/xcatliu/tool_docs',
             include: undefined,
             nav: [
                 {
-                    link: '/pagic_template_docs/introduction/index.html',
+                    link: '/tool_docs/introduction/index.html',
                     text: 'Docs'
                 },
                 {
@@ -46,7 +46,7 @@ export default {
                 },
                 {
                     align: 'right',
-                    link: '/pagic_template_docs/about/index.html',
+                    link: '/tool_docs/about/index.html',
                     text: 'About'
                 }
             ],
@@ -63,7 +63,7 @@ export default {
                 'prev_next'
             ],
             port: 8000,
-            root: '/pagic_template_docs/',
+            root: '/tool_docs/',
             serve: false,
             sidebar: {
                 '/': [
@@ -103,7 +103,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", null,
         "Powered by\u00A0",
         React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),

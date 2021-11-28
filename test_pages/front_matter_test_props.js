@@ -1,4 +1,4 @@
-import projectConfig from '/pagic_template_docs/pagic.config.js';
+import projectConfig from '/tool_docs/pagic.config.js';
 export default {
     'prev': null,
     'next': null,
@@ -15,7 +15,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", null,
         "Powered by\u00A0",
         React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
