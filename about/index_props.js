@@ -6,9 +6,9 @@ export default {
     'pagePath': "about/README.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "about/index.html",
-    'title': "About",
+    'title': "更新日志",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>About</h1>\n<ul>\n<li>2021-11-24: 新增策略中心-市场模块数据导出。</li>\n<li>2021-11-22: 终于想起来要写个产品更新文档</li>\n</ul>'
+            __html: '<h1>更新日志</h1>\n<ul>\n<li>\n<p>2021-11-24: 新增策略中心-市场模块数据导出。</p>\n</li>\n<li>\n<p>2021-11-22: 终于想起来要写个产品更新文档。</p>\n</li>\n</ul>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
@@ -19,9 +19,9 @@ export default {
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
         } }, "\u00A9 CHENGFU"),
-    'contentTitle': React.createElement("h1", { key: "0" }, "About"),
+    'contentTitle': React.createElement("h1", { key: "0" }, "\u66F4\u65B0\u65E5\u5FD7"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<ul>\n<li>2021-11-24: 新增策略中心-市场模块数据导出。</li>\n<li>2021-11-22: 终于想起来要写个产品更新文档</li>\n</ul>'
+            __html: '<ul>\n<li>\n<p>2021-11-24: 新增策略中心-市场模块数据导出。</p>\n</li>\n<li>\n<p>2021-11-22: 终于想起来要写个产品更新文档。</p>\n</li>\n</ul>'
         } }),
     'toc': null,
     'author': "CHENGFU DENG",
@@ -29,8 +29,8 @@ export default {
         "CHENGFU DENG"
     ],
     'date': "2021-11-28T04:11:10.000Z",
-    'updated': "2021-11-28T09:03:44.000Z",
-    'excerpt': " - 2021-11-24: 新增策略中心-市场模块数据导出。 - 2021-11-22: 终于想起来要写个产品更新文档",
+    'updated': "2021-11-28T09:43:38.000Z",
+    'excerpt': " - 2021-11-24: 新增策略中心-市场模块数据导出。 - 2021-11-22: 终于想起来要写个产品更新文档。",
     'cover': undefined,
     'sidebar': [
         {
