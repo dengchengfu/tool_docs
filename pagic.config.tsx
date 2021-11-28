@@ -39,7 +39,7 @@ export default {
   github: 'https://github.com/dengchengfu/tool_docs',
   sidebar: {
     '/': [
-      'introduction/README.md',
+      'introduction/introdetail.md',
       {
         text: '功能说明',
         children: [
@@ -65,7 +65,7 @@ export default {
   },
 
   tools: {
-    editOnGitHub: true,
+    //editOnGitHub: true,
     backToTop: true,
   },
 
