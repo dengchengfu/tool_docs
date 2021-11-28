@@ -31,7 +31,7 @@ export default {
                 {
                     link: '/tool_docs/introduction/index.html',
                     popover: React.createElement(React.Fragment, null,
-                        React.createElement("img", { src: "/assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
+                        React.createElement("img", { src: "./assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
                     target: '_blank',
                     text: '赞助作者'
                 },
