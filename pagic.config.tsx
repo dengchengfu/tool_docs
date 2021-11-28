@@ -1,4 +1,4 @@
-// import { React } from 'https://deno.land/x/pagic/mod.ts';
+import { React } from 'https://deno.land/x/pagic/mod.ts';
 
 export default {
   srcDir: '.',
@@ -20,6 +20,11 @@ export default {
       text: '赞助作者',
       link: '/tool_docs/introduction/index.html',
       target: '_blank',
+      popover: (
+        <>
+          <img src="/assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top' }} />
+        </>
+      ),
     },
     {
       text: '加入微信群',
@@ -55,6 +60,15 @@ export default {
     editOnGitHub: true,
     backToTop: true,
   },
+
+  footer: (
+    <footer>
+      Powered by&nbsp;
+      <a href="https://github.com/xcatliu/pagic" target="_blank">
+        Pagic testing
+      </a>
+    </footer>
+  ),
 
   port: 8000,
 };
