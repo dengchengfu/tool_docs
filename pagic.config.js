@@ -24,7 +24,7 @@ export default {
             text: '提需求',
             link: '/tool_docs/introduction/index.html',
             popover: (React.createElement(React.Fragment, null,
-                React.createElement("img", { src: "../assets/wechatpay.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
+                React.createElement("img", { src: "../assets/wegroup.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
         },
         {
             text: '关于',
