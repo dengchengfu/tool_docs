@@ -16,7 +16,7 @@ export default {
   //head: <link rel="icon" type="image/png" href="/favicon.png" />,
   nav: [
     {
-      text: '赞助作者',
+      text: '赞助',
       link: '/tool_docs/introduction/index.html',
       target: '_blank',
       popover: (
@@ -26,8 +26,13 @@ export default {
       ),
     },
     {
-      text: '加入微信群',
-      link: 'https://pagic.org/',
+      text: '微信群',
+      link: '/tool_docs/introduction/index.html',
+      popover: (
+        <>
+          <img src="../assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
+        </>
+      ),
     },
     {
       text: '关于',
