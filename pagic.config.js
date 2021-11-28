@@ -61,6 +61,6 @@ export default {
         //editOnGitHub: true,
         backToTop: true,
     },
-    footer: (React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 CHENGFU")),
+    footer: (React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 2021 CHENGFU")),
     port: 8000,
 };

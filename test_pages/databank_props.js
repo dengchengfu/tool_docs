@@ -24,7 +24,7 @@ export default {
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 CHENGFU"),
+        } }, "\u00A9 2021 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u6570\u636E\u94F6\u884C"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<p><img src="../assets/databank1.png" alt="人群画像截图"></p>'

@@ -18,7 +18,7 @@ export default {
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 CHENGFU"),
+        } }, "\u00A9 2021 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "Foo"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>The foo page.</p>'
