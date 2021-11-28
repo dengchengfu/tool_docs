@@ -1,112 +1,35 @@
 # 策略中心
 
-This page contains the features about markdown supported by Pagic.
+## 取数模块如下
 
-## GitHub flavored markdown
+ * 品牌增长概览: 品牌表现(销售金额，购买人数，客单价，新品销售金额等)。
+ ![品牌表现](../assets/stra1.png)
 
-The followed content is copied from https://guides.github.com/features/mastering-markdown/
+ * 消费者细分: 自定义人群画像（全部画像标签）。
+ ![消费者细分](../assets/stra2.png)
 
-### Text
+ * 相关性分析: 一级/叶子/品牌类目购买偏好。
+ ![相关性分析1](../assets/stra3.png)
+ ![相关性分析2](../assets/stra4.png)
 
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
+ * 品牌得失追踪: 得失来源，品牌转换。
+ ![品牌得失追踪1](../assets/stra5.png)
+ ![品牌得失追踪2](../assets/stra6.png)
+ ![品牌得失追踪3](../assets/stra7.png)
 
-### Lists
 
-Sometimes you want numbered lists:
+ * 市场概览-趋势：市场概况下各指标的过往趋势数据。
+ ![市场概览趋势1](../assets/stra8.png)
 
-1. One
-2. Two
-3. Three
+ * 市场概览-详情：市场格局下品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。
+ ![市场概览详情1](../assets/stra9.png)
+ ![市场概览详情2](../assets/stra10.png)
+ ![市场概览详情3](../assets/stra11.png)
+ ![市场概览详情4](../assets/stra12.png)
 
-Sometimes you want bullet points:
 
-* Start a line with a star
-* Profit!
+ * 市场细分：各分析报告的品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。
+ ![市场细分1](../assets/stra13.png)
+ ![市场细分2](../assets/stra14.png)
+ ![市场细分3](../assets/stra15.png)
 
-Alternatively,
-
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
-
-### Images
-
-If you want to embed images, this is how you do it:
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-### Headers
-
-Sometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.
-
-You can use one `#` all the way up to `######` six for different heading sizes.
-
-### Quotes
-
-If you'd like to quote someone, use the > character before the line:
-
-> Coffee. The finest organic suspension ever devised... I beat the Borg with it.
-> - Captain Janeway
-
-### Code
-
-There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
-
-    if (isAwesome){
-      return true
-    }
-
-GitHub also supports something called code fencing, which allows for multiple lines without indentation:
-
-```
-if (isAwesome){
-  return true
-}
-```
-
-And if you'd like to use syntax highlighting, include the language:
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-#### Highlight specific lines
-
-```{3,5-6}
-site/
-|── dist    # Output directory
-|   └── index.html
-├── pagic.config.ts
-└── docs    # Source directory
-    └── README.md
-```
-
-### Tables
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-## Extras
-
-Pagic supports many extras in markdown.
-
-### TeX (KaTeX)
-
-Inline: $E=mc^2$
-
-Block:
-
-$$
-\frac{1}{
-  \Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{
-  \frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {
-    1+\frac{e^{-6\pi}}
-    {1+\frac{e^{-8\pi}}{1+\cdots}}
-  }
-}
-$$
