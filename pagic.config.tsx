@@ -22,7 +22,7 @@ export default {
       target: '_blank',
       popover: (
         <>
-          <img src="/assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top' }} />
+          <img src="/assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
         </>
       ),
     },
@@ -69,7 +69,7 @@ export default {
   },
 
   footer: (
-    <footer style="text-align: center;">
+    <footer style={{textAlign: 'center'}}>
       Copyright © 2021 CHENGFU
     </footer>
   ),
