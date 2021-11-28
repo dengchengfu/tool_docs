@@ -16,7 +16,9 @@ export default {
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
-    'footer': React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"),
+    'footer': React.createElement("footer", { style: {
+            textAlign: 'center'
+        } }, "Copyright \u00A9 2021 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "About"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>The about page.</p>'
@@ -32,51 +34,9 @@ export default {
     'cover': undefined,
     'sidebar': [
         {
-            "text": "Introduction",
+            "text": "介绍",
             "link": "introduction/index.html",
             "pagePath": "introduction/README.md"
-        },
-        {
-            "link": "test_pages/index.html",
-            "children": [
-                {
-                    "text": "Markdown test",
-                    "link": "test_pages/markdown_test.html",
-                    "pagePath": "test_pages/markdown_test.md"
-                },
-                {
-                    "text": "Front matter test",
-                    "link": "test_pages/front_matter_test.html",
-                    "pagePath": "test_pages/front_matter.md"
-                },
-                {
-                    "text": "React hooks test",
-                    "link": "test_pages/react_hooks_test.html",
-                    "pagePath": "test_pages/react_hooks_test.tsx"
-                },
-                {
-                    "text": "Markdown test",
-                    "link": "test_pages/markdown_test.html",
-                    "pagePath": "test_pages/markdown_test.md"
-                }
-            ],
-            "pagePath": "test_pages/README.md",
-            "text": "功能说明"
-        },
-        {
-            "text": "Folder",
-            "children": [
-                {
-                    "text": "Foo",
-                    "link": "folder/foo.html",
-                    "pagePath": "folder/foo.md"
-                },
-                {
-                    "text": "Custom sidebar text",
-                    "link": "folder/bar.html",
-                    "pagePath": "folder/bar.md"
-                }
-            ]
         },
         {
             "text": "功能说明",
@@ -102,6 +62,16 @@ export default {
                     "pagePath": "test_pages/yuntu.md"
                 }
             ]
+        },
+        {
+            "text": "安装教程",
+            "link": "test_pages/index.html",
+            "pagePath": "test_pages/README.md"
+        },
+        {
+            "text": "未来规划",
+            "link": "test_pages/index.html",
+            "pagePath": "test_pages/README.md"
         }
     ]
 };

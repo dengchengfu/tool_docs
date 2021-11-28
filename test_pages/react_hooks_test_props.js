@@ -1,14 +1,8 @@
 import projectConfig from '/tool_docs/pagic.config.js';
 import ReactHooksTest from './react_hooks_test_content.js';
 export default {
-    'prev': {
-        "text": "Front matter test",
-        "link": "test_pages/front_matter_test.html"
-    },
-    'next': {
-        "text": "Markdown test",
-        "link": "test_pages/markdown_test.html"
-    },
+    'prev': undefined,
+    'next': undefined,
     config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/react_hooks_test.tsx",
     'layoutPath': "_layout.tsx",
@@ -30,7 +24,7 @@ export default {
                 'LICENSE',
                 'dist'
             ],
-            footer: React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"),
+            footer: React.createElement("footer", { style: { textAlign: 'center' } }, "Copyright \u00A9 2021 CHENGFU"),
             github: 'https://github.com/dengchengfu/tool_docs',
             include: undefined,
             nav: [
@@ -71,31 +65,20 @@ export default {
                     'introduction/README.md',
                     {
                         children: [
-                            'test_pages/markdown_test.md',
-                            'test_pages/front_matter.md',
-                            'test_pages/react_hooks_test.tsx',
-                            'test_pages/markdown_test.md'
-                        ],
-                        link: 'test_pages/README.md'
-                    },
-                    {
-                        children: [
-                            'folder/foo.md',
-                            {
-                                link: 'folder/bar.md',
-                                text: 'Custom sidebar text'
-                            }
-                        ],
-                        text: 'Folder'
-                    },
-                    {
-                        children: [
                             'test_pages/databank.md',
                             'test_pages/strategycenter.md',
                             'test_pages/dmp.md',
                             'test_pages/yuntu.md'
                         ],
                         text: '功能说明'
+                    },
+                    {
+                        link: 'test_pages/README.md',
+                        text: '安装教程'
+                    },
+                    {
+                        link: 'test_pages/README.md',
+                        text: '未来规划'
                     }
                 ]
             },
@@ -107,60 +90,20 @@ export default {
                 editOnGitHub: true
             },
             watch: false
-        }, content: null, footer: React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
+        }, content: null, footer: React.createElement("footer", { style: { textAlign: 'center' } }, "Copyright \u00A9 2021 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
-    'footer': React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"),
+    'footer': React.createElement("footer", { style: {
+            textAlign: 'center'
+        } }, "Copyright \u00A9 2021 CHENGFU"),
     'sidebar': [
         {
-            "text": "Introduction",
+            "text": "介绍",
             "link": "introduction/index.html",
             "pagePath": "introduction/README.md"
-        },
-        {
-            "link": "test_pages/index.html",
-            "children": [
-                {
-                    "text": "Markdown test",
-                    "link": "test_pages/markdown_test.html",
-                    "pagePath": "test_pages/markdown_test.md"
-                },
-                {
-                    "text": "Front matter test",
-                    "link": "test_pages/front_matter_test.html",
-                    "pagePath": "test_pages/front_matter.md"
-                },
-                {
-                    "text": "React hooks test",
-                    "link": "test_pages/react_hooks_test.html",
-                    "pagePath": "test_pages/react_hooks_test.tsx"
-                },
-                {
-                    "text": "Markdown test",
-                    "link": "test_pages/markdown_test.html",
-                    "pagePath": "test_pages/markdown_test.md"
-                }
-            ],
-            "pagePath": "test_pages/README.md",
-            "text": "功能说明"
-        },
-        {
-            "text": "Folder",
-            "children": [
-                {
-                    "text": "Foo",
-                    "link": "folder/foo.html",
-                    "pagePath": "folder/foo.md"
-                },
-                {
-                    "text": "Custom sidebar text",
-                    "link": "folder/bar.html",
-                    "pagePath": "folder/bar.md"
-                }
-            ]
         },
         {
             "text": "功能说明",
@@ -186,6 +129,16 @@ export default {
                     "pagePath": "test_pages/yuntu.md"
                 }
             ]
+        },
+        {
+            "text": "安装教程",
+            "link": "test_pages/index.html",
+            "pagePath": "test_pages/README.md"
+        },
+        {
+            "text": "未来规划",
+            "link": "test_pages/index.html",
+            "pagePath": "test_pages/README.md"
         }
     ]
 };
