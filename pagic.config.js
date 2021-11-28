@@ -14,14 +14,14 @@ export default {
     //head: <link rel="icon" type="image/png" href="/favicon.png" />,
     nav: [
         {
-            text: '赞助',
+            text: '打赏',
             link: '/tool_docs/introduction/index.html',
             target: '_blank',
             popover: (React.createElement(React.Fragment, null,
                 React.createElement("img", { src: "../assets/wechatpay.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
         },
         {
-            text: '微信群',
+            text: '提需求',
             link: '/tool_docs/introduction/index.html',
             popover: (React.createElement(React.Fragment, null,
                 React.createElement("img", { src: "../assets/wechatpay.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),
