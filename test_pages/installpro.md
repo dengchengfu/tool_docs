@@ -1,7 +1,7 @@
 # 安装教程
 
 ## 1. 打开浏览器拓展程序页面
-![Step 1](/assets/install1.png)
+![Step 1](../assets/install1.png)
 
 ## 2. 开启开发者模式
 ![Step 2](/assets/install2.png)
