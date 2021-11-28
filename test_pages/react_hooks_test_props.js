@@ -6,8 +6,8 @@ export default {
         "link": "test_pages/front_matter_test.html"
     },
     'next': {
-        "text": "Foo",
-        "link": "folder/foo.html"
+        "text": "Markdown test",
+        "link": "test_pages/markdown_test.html"
     },
     config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/react_hooks_test.tsx",
@@ -30,11 +30,8 @@ export default {
                 'LICENSE',
                 'dist'
             ],
-            footer: React.createElement("footer", null,
-                "Powered by\u00A0",
-                React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")),
+            footer: React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"),
             github: 'https://github.com/dengchengfu/tool_docs',
-            head: React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }),
             include: undefined,
             nav: [
                 {
@@ -76,7 +73,8 @@ export default {
                         children: [
                             'test_pages/markdown_test.md',
                             'test_pages/front_matter.md',
-                            'test_pages/react_hooks_test.tsx'
+                            'test_pages/react_hooks_test.tsx',
+                            'test_pages/markdown_test.md'
                         ],
                         link: 'test_pages/README.md'
                     },
@@ -100,17 +98,13 @@ export default {
                 editOnGitHub: true
             },
             watch: false
-        }, content: null, footer: React.createElement("footer", null,
-            "Powered by\u00A0",
-            React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")), head: React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }), layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
-    'head': React.createElement("link", { href: "/favicon.png", rel: "icon", type: "image/png" }),
+        }, content: null, footer: React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
+    'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
-    'footer': React.createElement("footer", null,
-        "Powered by",
-        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing")),
+    'footer': React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU"),
     'sidebar': [
         {
             "text": "Introduction",
@@ -134,10 +128,15 @@ export default {
                     "text": "React hooks test",
                     "link": "test_pages/react_hooks_test.html",
                     "pagePath": "test_pages/react_hooks_test.tsx"
+                },
+                {
+                    "text": "Markdown test",
+                    "link": "test_pages/markdown_test.html",
+                    "pagePath": "test_pages/markdown_test.md"
                 }
             ],
             "pagePath": "test_pages/README.md",
-            "text": "Test pages"
+            "text": "功能说明"
         },
         {
             "text": "Folder",

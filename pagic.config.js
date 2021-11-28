@@ -11,7 +11,7 @@ export default {
     //   <link rel="icon" type="image/png" href="/favicon.png" />
     //   <script src="/assets/custom.js" />
     // </>,
-    head: React.createElement("link", { rel: "icon", type: "image/png", href: "/favicon.png" }),
+    //head: <link rel="icon" type="image/png" href="/favicon.png" />,
     nav: [
         {
             text: '赞助作者',
@@ -36,7 +36,7 @@ export default {
             'introduction/README.md',
             {
                 link: 'test_pages/README.md',
-                children: ['test_pages/markdown_test.md', 'test_pages/front_matter.md', 'test_pages/react_hooks_test.tsx'],
+                children: ['test_pages/markdown_test.md', 'test_pages/front_matter.md', 'test_pages/react_hooks_test.tsx', 'test_pages/markdown_test.md'],
             },
             {
                 text: 'Folder',
@@ -54,8 +54,6 @@ export default {
         editOnGitHub: true,
         backToTop: true,
     },
-    footer: (React.createElement("footer", null,
-        "Powered by\u00A0",
-        React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic testing"))),
+    footer: (React.createElement("footer", null, "Copyright \u00A9 2021 CHENGFU")),
     port: 8000,
 };
