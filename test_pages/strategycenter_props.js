@@ -1,4 +1,4 @@
-import projectConfig from '/tool_docs/pagic.config.js';
+import projectConfig from '/pagic.config.js';
 export default {
     'prev': {
         "text": "数据银行",
@@ -21,7 +21,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@17.0.2/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/tool_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
         } }, "\u00A9 2021 CHENGFU"),
