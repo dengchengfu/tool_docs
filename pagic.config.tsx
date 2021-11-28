@@ -10,14 +10,16 @@ export default {
   title: '阿甫工具-说明手册',
   description: 'Use this template to create a Pagic site with the docs theme',
   // To use jsx syntax, please rename this file to pagic.config.tsx
-  // head: <>
+  //head: <>
   //   <link rel="icon" type="image/png" href="/favicon.png" />
   //   <script src="/assets/custom.js" />
   // </>,
+  head: <link rel="icon" type="image/png" href="/favicon.png" />,
   nav: [
     {
-      text: '赞助',
+      text: '赞助作者',
       link: '/tool_docs/introduction/index.html',
+      target: '_blank',
     },
     {
       text: '加入微信群',
