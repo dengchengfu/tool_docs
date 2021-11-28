@@ -21,7 +21,7 @@ export default {
       target: '_blank',
       popover: (
         <>
-          <img src="./assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
+          <img src="../assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
         </>
       ),
     },
@@ -30,7 +30,7 @@ export default {
       link: 'https://pagic.org/',
     },
     {
-      text: 'About',
+      text: '关于',
       link: '/tool_docs/about/index.html',
       align: 'right',
     },
