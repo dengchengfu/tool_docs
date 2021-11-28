@@ -33,16 +33,16 @@ export default {
             footer: React.createElement("footer", null,
                 "Powered by\u00A0",
                 React.createElement("a", { href: "https://github.com/xcatliu/pagic", target: "_blank" }, "Pagic")),
-            github: 'https://github.com/xcatliu/tool_docs',
+            github: 'https://github.com/dengchengfu/tool_docs',
             include: undefined,
             nav: [
                 {
                     link: '/tool_docs/introduction/index.html',
-                    text: 'Docs'
+                    text: '赞助'
                 },
                 {
                     link: 'https://pagic.org/',
-                    text: 'Pagic'
+                    text: '加入微信群'
                 },
                 {
                     align: 'right',
