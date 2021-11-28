@@ -79,5 +79,5 @@ export default {
     </footer>
   ),
 
-  port: 8001,
+  port: 8080,
 };
