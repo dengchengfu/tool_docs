@@ -3,7 +3,7 @@ import { React } from 'https://deno.land/x/pagic@v1.5.1/mod.ts';
 export default {
   srcDir: '.',
   exclude: ['LICENSE'],
-  root: '/tool_docs/',
+  //root: '/tool_docs/',
   theme: 'docs',
   plugins: ['sidebar', 'prev_next'],
   title: '阿甫工具-说明手册',
