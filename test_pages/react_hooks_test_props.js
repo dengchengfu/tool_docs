@@ -33,11 +33,13 @@ export default {
                     popover: React.createElement(React.Fragment, null,
                         React.createElement("img", { src: "../assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
                     target: '_blank',
-                    text: '赞助作者'
+                    text: '赞助'
                 },
                 {
-                    link: 'https://pagic.org/',
-                    text: '加入微信群'
+                    link: '/tool_docs/introduction/index.html',
+                    popover: React.createElement(React.Fragment, null,
+                        React.createElement("img", { src: "../assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
+                    text: '微信群'
                 },
                 {
                     align: 'right',
