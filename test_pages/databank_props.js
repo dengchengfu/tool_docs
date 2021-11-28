@@ -14,7 +14,7 @@ export default {
     'outputPath': "test_pages/databank.html",
     'title': "数据银行",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>数据银行</h1>\n<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下:<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<p><img src="../assets/databank1.png" alt="人群画像截图"></p>'
+            __html: '<h1>数据银行</h1>\n<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<p><img src="../assets/databank1.png" alt="人群画像截图"></p>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
@@ -27,19 +27,19 @@ export default {
         } }, "\u00A9 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u6570\u636E\u94F6\u884C"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下:<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<p><img src="../assets/databank1.png" alt="人群画像截图"></p>'
+            __html: '<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<p><img src="../assets/databank1.png" alt="人群画像截图"></p>'
         } }),
     'toc': React.createElement("nav", { key: "0", className: "toc" },
         React.createElement("ol", null,
             React.createElement("li", null,
-                React.createElement("a", { href: "#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B" }, "\u53D6\u6570\u6A21\u5757\u5982\u4E0B:")))),
+                React.createElement("a", { href: "#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B" }, "\u53D6\u6570\u6A21\u5757\u5982\u4E0B")))),
     'author': "CHENGFU DENG",
     'contributors': [
         "CHENGFU DENG"
     ],
     'date': "2021-11-28T04:11:10.000Z",
-    'updated': "2021-11-28T09:03:44.000Z",
-    'excerpt': "取数模块如下: - 消费者资产：消费者分析，全链路分析。 - 商品分析：分析报告列表，商品集列表。 - 自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。 ",
+    'updated': "2021-11-28T09:23:06.000Z",
+    'excerpt': "取数模块如下 - 消费者资产：消费者分析，全链路分析。 - 商品分析：分析报告列表，商品集列表。 - 自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。 ",
     'cover': "../assets/databank1.png",
     'sidebar': [
         {

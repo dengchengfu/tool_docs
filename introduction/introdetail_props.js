@@ -11,7 +11,7 @@ export default {
     'outputPath': "introduction/introdetail.html",
     'title': "介绍",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>介绍</h1>\n<h2 id="%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">适用场景<a class="anchor" href="#%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">§</a></h2>\n<p>数据银行，策略中心，达摩盘，巨量云图等数字营销会面临的各类取数场景。</p>\n<p>已支持下载的数据列举如下(后续会不断添加)</p>\n<h2 id="%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">数据银行<a class="anchor" href="#%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">§</a></h2>\n<ul>\n<li>品牌增长概览(销售金额，购买人数，客单价，新品销售金额等)；</li>\n<li>人群透视画像(年龄、性别、消费力、职业、省份、城市等级、大快消人群、彩妆护肤年消费力等)；</li>\n<li>相关性分析(一级、叶子类目购买偏好，品牌购买偏好等)；</li>\n<li>品牌得失追踪(得失来源、品牌转换等)；</li>\n</ul>\n<h2 id="%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">策略中心<a class="anchor" href="#%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">§</a></h2>\n<ul>\n<li>品牌增长概览(销售金额，购买人数，客单价，新品销售金额等)；</li>\n<li>人群透视画像(年龄、性别、消费力、职业、省份、城市等级、大快消人群、彩妆护肤年消费力等)；</li>\n<li>相关性分析(一级、叶子类目购买偏好，品牌购买偏好等)；</li>\n<li>品牌得失追踪(得失来源、品牌转换等)；</li>\n</ul>\n<h2 id="%E8%BE%BE%E6%91%A9%E7%9B%98">达摩盘<a class="anchor" href="#%E8%BE%BE%E6%91%A9%E7%9B%98">§</a></h2>\n<ul>\n<li>首页“店铺消费资产”的30天日度数据(店铺总消费者、触达率、渗透率、潜客、新客、老客等)；</li>\n<li>人群列表；</li>\n<li>人群透视画像(年龄、性别、职业、消费力、城市等级、大快消人群等)；</li>\n</ul>'
+            __html: '<h1>介绍</h1>\n<h2 id="%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">适用场景<a class="anchor" href="#%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">§</a></h2>\n<p>数据银行，策略中心，达摩盘，巨量云图等数字营销会面临的各类取数场景。</p>\n<p>已支持下载的数据列举如下(后续会不断添加)</p>\n<h2 id="%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">数据银行<a class="anchor" href="#%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<h2 id="%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">策略中心<a class="anchor" href="#%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">§</a></h2>\n<ul>\n<li>品牌增长概览: 品牌表现(销售金额，购买人数，客单价，新品销售金额等)。</li>\n<li>消费者细分: 自定义人群画像（全部画像标签）。</li>\n<li>相关性分析: 一级/叶子/品牌类目购买偏好。</li>\n<li>品牌得失追踪: 得失来源，品牌转换。</li>\n<li>市场概览-趋势：市场概况下各指标的过往趋势数据。</li>\n<li>市场概览-详情：市场格局下品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。</li>\n<li>市场细分：各分析报告的品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。</li>\n</ul>\n<h2 id="%E8%BE%BE%E6%91%A9%E7%9B%98">达摩盘<a class="anchor" href="#%E8%BE%BE%E6%91%A9%E7%9B%98">§</a></h2>\n<ul>\n<li>首页“店铺消费资产”的30天日度数据(店铺总消费者、触达率、渗透率、潜客、新客、老客等)。</li>\n<li>人群透视画像(年龄、性别、职业、消费力、城市等级、大快消人群等)。</li>\n<li>自定义人群分析列表: 人群报告列表。</li>\n</ul>\n<h2 id="%E5%B7%A8%E9%87%8F%E4%BA%91%E5%9B%BE">巨量云图<a class="anchor" href="#%E5%B7%A8%E9%87%8F%E4%BA%91%E5%9B%BE">§</a></h2>\n<ul>\n<li>5A关系资产: 用户趋势, 触点分布, 人群画像。</li>\n<li>5A关系流转: 概览, 流转分析。</li>\n<li>自定义人群: 基础画像, 内容偏好, 行业偏好。</li>\n<li>自定义内容洞察: 整体趋势, 热门内容, 热门评论。</li>\n<li>投后结案: 流量/创意分析, 人群分析, 品牌情感。</li>\n</ul>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
@@ -24,7 +24,7 @@ export default {
         } }, "\u00A9 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u4ECB\u7ECD"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h2 id="%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">适用场景<a class="anchor" href="#%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">§</a></h2>\n<p>数据银行，策略中心，达摩盘，巨量云图等数字营销会面临的各类取数场景。</p>\n<p>已支持下载的数据列举如下(后续会不断添加)</p>\n<h2 id="%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">数据银行<a class="anchor" href="#%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">§</a></h2>\n<ul>\n<li>品牌增长概览(销售金额，购买人数，客单价，新品销售金额等)；</li>\n<li>人群透视画像(年龄、性别、消费力、职业、省份、城市等级、大快消人群、彩妆护肤年消费力等)；</li>\n<li>相关性分析(一级、叶子类目购买偏好，品牌购买偏好等)；</li>\n<li>品牌得失追踪(得失来源、品牌转换等)；</li>\n</ul>\n<h2 id="%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">策略中心<a class="anchor" href="#%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">§</a></h2>\n<ul>\n<li>品牌增长概览(销售金额，购买人数，客单价，新品销售金额等)；</li>\n<li>人群透视画像(年龄、性别、消费力、职业、省份、城市等级、大快消人群、彩妆护肤年消费力等)；</li>\n<li>相关性分析(一级、叶子类目购买偏好，品牌购买偏好等)；</li>\n<li>品牌得失追踪(得失来源、品牌转换等)；</li>\n</ul>\n<h2 id="%E8%BE%BE%E6%91%A9%E7%9B%98">达摩盘<a class="anchor" href="#%E8%BE%BE%E6%91%A9%E7%9B%98">§</a></h2>\n<ul>\n<li>首页“店铺消费资产”的30天日度数据(店铺总消费者、触达率、渗透率、潜客、新客、老客等)；</li>\n<li>人群列表；</li>\n<li>人群透视画像(年龄、性别、职业、消费力、城市等级、大快消人群等)；</li>\n</ul>'
+            __html: '<h2 id="%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">适用场景<a class="anchor" href="#%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF">§</a></h2>\n<p>数据银行，策略中心，达摩盘，巨量云图等数字营销会面临的各类取数场景。</p>\n<p>已支持下载的数据列举如下(后续会不断添加)</p>\n<h2 id="%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">数据银行<a class="anchor" href="#%E6%95%B0%E6%8D%AE%E9%93%B6%E8%A1%8C">§</a></h2>\n<ul>\n<li>消费者资产：消费者分析，全链路分析。</li>\n<li>商品分析：分析报告列表，商品集列表。</li>\n<li>自定义人群分析：人群列表，分析报告，人群画像（全部画像标签）。</li>\n</ul>\n<h2 id="%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">策略中心<a class="anchor" href="#%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83">§</a></h2>\n<ul>\n<li>品牌增长概览: 品牌表现(销售金额，购买人数，客单价，新品销售金额等)。</li>\n<li>消费者细分: 自定义人群画像（全部画像标签）。</li>\n<li>相关性分析: 一级/叶子/品牌类目购买偏好。</li>\n<li>品牌得失追踪: 得失来源，品牌转换。</li>\n<li>市场概览-趋势：市场概况下各指标的过往趋势数据。</li>\n<li>市场概览-详情：市场格局下品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。</li>\n<li>市场细分：各分析报告的品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。</li>\n</ul>\n<h2 id="%E8%BE%BE%E6%91%A9%E7%9B%98">达摩盘<a class="anchor" href="#%E8%BE%BE%E6%91%A9%E7%9B%98">§</a></h2>\n<ul>\n<li>首页“店铺消费资产”的30天日度数据(店铺总消费者、触达率、渗透率、潜客、新客、老客等)。</li>\n<li>人群透视画像(年龄、性别、职业、消费力、城市等级、大快消人群等)。</li>\n<li>自定义人群分析列表: 人群报告列表。</li>\n</ul>\n<h2 id="%E5%B7%A8%E9%87%8F%E4%BA%91%E5%9B%BE">巨量云图<a class="anchor" href="#%E5%B7%A8%E9%87%8F%E4%BA%91%E5%9B%BE">§</a></h2>\n<ul>\n<li>5A关系资产: 用户趋势, 触点分布, 人群画像。</li>\n<li>5A关系流转: 概览, 流转分析。</li>\n<li>自定义人群: 基础画像, 内容偏好, 行业偏好。</li>\n<li>自定义内容洞察: 整体趋势, 热门内容, 热门评论。</li>\n<li>投后结案: 流量/创意分析, 人群分析, 品牌情感。</li>\n</ul>'
         } }),
     'toc': React.createElement("nav", { key: "0", className: "toc" },
         React.createElement("ol", null,
@@ -35,14 +35,16 @@ export default {
             React.createElement("li", null,
                 React.createElement("a", { href: "#%E7%AD%96%E7%95%A5%E4%B8%AD%E5%BF%83" }, "\u7B56\u7565\u4E2D\u5FC3")),
             React.createElement("li", null,
-                React.createElement("a", { href: "#%E8%BE%BE%E6%91%A9%E7%9B%98" }, "\u8FBE\u6469\u76D8")))),
+                React.createElement("a", { href: "#%E8%BE%BE%E6%91%A9%E7%9B%98" }, "\u8FBE\u6469\u76D8")),
+            React.createElement("li", null,
+                React.createElement("a", { href: "#%E5%B7%A8%E9%87%8F%E4%BA%91%E5%9B%BE" }, "\u5DE8\u91CF\u4E91\u56FE")))),
     'author': "CHENGFU DENG",
     'contributors': [
         "CHENGFU DENG"
     ],
     'date': "2021-11-28T04:11:10.000Z",
-    'updated': "2021-11-28T07:50:35.000Z",
-    'excerpt': "适用场景 数据银行，策略中心，达摩盘，巨量云图等数字营销会面临的各类取数场景。 已支持下载的数据列举如下(后续会不断添加) 数据银行 - 品牌增长概览(销售金额，购买人数，客单价，新品销售金额等)； - 人群透视画像(年龄、...",
+    'updated': "2021-11-28T09:23:06.000Z",
+    'excerpt': "适用场景 数据银行，策略中心，达摩盘，巨量云图等数字营销会面临的各类取数场景。 已支持下载的数据列举如下(后续会不断添加) 数据银行 - 消费者资产：消费者分析，全链路分析。 - 商品分析：分析报告列表，商品集列表。 - 自...",
     'cover': undefined,
     'sidebar': [
         {
