@@ -4,7 +4,6 @@ export default {
   srcDir: '.',
   exclude: ['LICENSE'],
   root: '/tool_docs/',
-
   theme: 'docs',
   plugins: ['sidebar', 'prev_next'],
   title: '阿甫工具-说明手册',
@@ -22,7 +21,7 @@ export default {
       target: '_blank',
       popover: (
         <>
-          <img src="/assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
+          <img src="./assets/wechatpay.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
         </>
       ),
     },
