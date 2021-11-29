@@ -17,7 +17,7 @@ export default {
   nav: [
     {
       text: '打赏',
-      link: 'introduction/index.html',
+      //link: 'introduction/index.html',
       target: '_blank',
       popover: (
         <>
