@@ -15,7 +15,7 @@ export default {
     nav: [
         {
             text: '打赏',
-            link: 'introduction/index.html',
+            //link: 'introduction/index.html',
             target: '_blank',
             popover: (React.createElement(React.Fragment, null,
                 React.createElement("img", { src: "../assets/wechatpay.jpeg", width: "256", style: { marginRight: '1rem', verticalAlign: 'top' } }))),

@@ -29,7 +29,6 @@ export default {
             include: undefined,
             nav: [
                 {
-                    link: 'introduction/index.html',
                     popover: React.createElement(React.Fragment, null,
                         React.createElement("img", { src: "../assets/wechatpay.jpeg", style: { marginRight: '1rem', verticalAlign: 'top' }, width: "256" })),
                     target: '_blank',
