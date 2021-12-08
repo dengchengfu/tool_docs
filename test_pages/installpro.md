@@ -1,5 +1,7 @@
 # 安装教程
 
+- [插件下载地址](https://d97gi4px3j.feishu.cn/sheets/shtcnprcQkGea8LdPwZnCdP5rNc?table=tbl4Qq6fbWDifSih&view=vewAQskBlK)
+
 ## 1. 打开浏览器扩展程序页面
 ![Step 1](../assets/install1.png)
 
