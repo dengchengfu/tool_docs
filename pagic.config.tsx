@@ -73,7 +73,7 @@ export default {
 
   footer: (
     <footer style={{textAlign: 'center'}}>
-    © 2021 CHENGFU
+    © 2022 CHENGFU
     </footer>
   ),
 
