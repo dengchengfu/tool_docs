@@ -24,7 +24,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 2021 CHENGFU"),
+        } }, "\u00A9 2022 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u5DE8\u91CF\u4E91\u56FE"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>5A关系资产: 用户趋势, 触点分布, 人群画像。</li>\n<li>5A关系流转: 概览, 流转分析。</li>\n<li>自定义人群: 基础画像, 内容偏好, 行业偏好。</li>\n<li>自定义内容洞察: 整体趋势, 热门内容, 热门评论。</li>\n<li>投后结案: 流量/创意分析, 人群分析, 品牌情感。</li>\n</ul>'

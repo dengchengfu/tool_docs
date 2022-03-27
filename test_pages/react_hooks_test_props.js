@@ -24,7 +24,7 @@ export default {
                 'LICENSE',
                 'dist'
             ],
-            footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 2021 CHENGFU"),
+            footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 2022 CHENGFU"),
             github: 'https://github.com/dengchengfu/tool_docs',
             include: undefined,
             nav: [
@@ -89,7 +89,7 @@ export default {
                 backToTop: true
             },
             watch: false
-        }, content: null, footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 2021 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
+        }, content: null, footer: React.createElement("footer", { style: { textAlign: 'center' } }, "\u00A9 2022 CHENGFU"), head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@17.0.2/umd/react.production.min.js" }),
@@ -97,7 +97,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 2021 CHENGFU"),
+        } }, "\u00A9 2022 CHENGFU"),
     'sidebar': [
         {
             "text": "介绍",

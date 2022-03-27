@@ -24,7 +24,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 2021 CHENGFU"),
+        } }, "\u00A9 2022 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u8FBE\u6469\u76D8"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>\n<p>首页“店铺消费资产”的30天日度数据(店铺总消费者、触达率、渗透率、潜客、新客、老客等)。\n<img src="../assets/dmp1.png" alt="店铺消费者资产"></p>\n</li>\n<li>\n<p>人群画像: 常用核心标签(年龄、性别、职业、消费力、城市等级、大快消人群等)。\n<img src="../assets/dmp2.png" alt="人群画像截图1"></p>\n</li>\n</ul>\n<p><img src="../assets/dmp3.png" alt="人群画像截图2"></p>\n<ul>\n<li>自定义人群分析列表: 人群报告列表。\n<img src="../assets/dmp4.png" alt="人群报告列表"></li>\n</ul>'

@@ -18,7 +18,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 2021 CHENGFU"),
+        } }, "\u00A9 2022 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u66F4\u65B0\u65E5\u5FD7"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<ul>\n<li>\n<p>2021-11-24: 新增策略中心-市场模块数据导出。</p>\n</li>\n<li>\n<p>2021-11-22: 终于想起来要写个产品更新文档。</p>\n</li>\n</ul>'

@@ -24,7 +24,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'footer': React.createElement("footer", { style: {
             textAlign: 'center'
-        } }, "\u00A9 2021 CHENGFU"),
+        } }, "\u00A9 2022 CHENGFU"),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u7B56\u7565\u4E2D\u5FC3"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<h2 id="%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">取数模块如下<a class="anchor" href="#%E5%8F%96%E6%95%B0%E6%A8%A1%E5%9D%97%E5%A6%82%E4%B8%8B">§</a></h2>\n<ul>\n<li>\n<p>品牌增长概览: 品牌表现(销售金额，购买人数，客单价，新品销售金额等)。\n<img src="../assets/stra1.png" alt="品牌表现"></p>\n</li>\n<li>\n<p>消费者细分: 自定义人群画像（全部画像标签）。\n<img src="../assets/stra2.png" alt="消费者细分"></p>\n</li>\n<li>\n<p>相关性分析: 一级/叶子/品牌类目购买偏好。\n<img src="../assets/stra3.png" alt="相关性分析1"></p>\n</li>\n</ul>\n<p><img src="../assets/stra4.png" alt="相关性分析2"></p>\n<ul>\n<li>品牌得失追踪: 得失来源，品牌转换。\n<img src="../assets/stra5.png" alt="品牌得失追踪1"></li>\n</ul>\n<p><img src="../assets/stra6.png" alt="品牌得失追踪2"></p>\n<p><img src="../assets/stra7.png" alt="品牌得失追踪3"></p>\n<ul>\n<li>\n<p>市场概览-趋势：市场概况下各指标的过往趋势数据。\n<img src="../assets/stra8.png" alt="市场概览趋势1"></p>\n</li>\n<li>\n<p>市场概览-详情：市场格局下品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。\n<img src="../assets/stra9.png" alt="市场概览详情1"></p>\n</li>\n</ul>\n<p><img src="../assets/stra10.png" alt="市场概览详情2"></p>\n<p><img src="../assets/stra11.png" alt="市场概览详情3"></p>\n<p><img src="../assets/stra12.png" alt="市场概览详情4"></p>\n<ul>\n<li>市场细分：各分析报告的品牌详情，变化趋势（任选品牌）；单品详情，变化趋势（任选单品）。\n<img src="../assets/stra13.png" alt="市场细分1"></li>\n</ul>\n<p><img src="../assets/stra14.png" alt="市场细分2"></p>\n<p><img src="../assets/stra15.png" alt="市场细分3"></p>'
