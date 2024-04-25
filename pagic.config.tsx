@@ -29,7 +29,7 @@ export default {
       text: '联系我',
       popover: (
         <>
-          <img src="../assets/wechat.png" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
+          <img src="../assets/wegroup.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
         </>
       ),
     },
