@@ -6,7 +6,7 @@ export default {
   theme: 'docs',
   plugins: ['sidebar', 'prev_next'],
   title: '阿甫工具-说明手册',
-  description: 'Use this template to create a Pagic site with the docs theme',
+  description: 'The introduction document of the Data Tool which aims for accelerating digital marketing operation.',
   github: 'https://github.com/dengchengfu/tool_docs',
   // To use jsx syntax, please rename this file to pagic.config.tsx
   //head: <>
@@ -26,10 +26,10 @@ export default {
       ),
     },
     {
-      text: '提需求',
+      text: '联系我',
       popover: (
         <>
-          <img src="../assets/wegroup.jpeg" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
+          <img src="../assets/wechat.png" width="256" style={{ marginRight: '1rem', verticalAlign: 'top'}} />
         </>
       ),
     },
@@ -73,7 +73,7 @@ export default {
 
   footer: (
     <footer style={{textAlign: 'center'}}>
-    © 2022 CHENGFU
+    © 2024 CHENGFU
     </footer>
   ),
 
